@@ -52,8 +52,15 @@ fields:
         - Person
       default:
         - type: Person
-          people:
-            - content/data/team/desmond-eagle.json
-            - content/data/team/dianne-ameter.json
-            - content/data/team/hilary-ouse.json
+          id: desmond-eagle
+          firstName: Desmond
+          lastName: Eagle
+          role: Head Fisherman & Founder
+          bio: >-
+            This feature is the thing you were missing in your workflow, thank god we have
+            it for you to use.
+          image:
+            type: ImageBlock
+            url: /images/desmond-eagle.jpg
+            altText: Person photo
      
